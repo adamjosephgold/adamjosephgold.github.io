@@ -1,20 +1,40 @@
 main{
     display: flex ;
 
-
 }
 article {
     flex: 1;
     margin: 40px;
-
+    border-style: double;
      text-align: center;
+
     }
 
     h2{
         text-align: center; 
-    
+     
     }
      h1{
         text-align: center;
-     color: darkseagreen;
+        flex: 5;
+
+     
     }
+ body{
+    background-color: lightgoldenrodyellow;
+    
+ }
+
+ footer {
+    margin-top: 40vh;
+ }
+ header{
+display:flex;
+flex-flow: row wrap;
+
+ }
+
+ header img{
+    display:block;
+    height: 90px;
+ }
