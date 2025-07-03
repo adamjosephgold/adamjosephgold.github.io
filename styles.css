@@ -5,9 +5,9 @@ main{
 article {
     flex: 1;
     margin: 40px;
-    border-style: double;
+    border-style:double;
      text-align: center;
-
+padding:5px;
     }
 
     h2{
